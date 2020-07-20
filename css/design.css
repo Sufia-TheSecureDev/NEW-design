@@ -1,0 +1,116 @@
+
+.navbar,.nav-item{
+    padding-left: 1em !important;
+}
+	
+.navbar,.nav-item,.nav-link{
+			text-transform: uppercase;
+		}
+.navbar{
+	background:#000; 
+}	
+		
+.carousel-item{
+	height: 450px;
+}	
+.carousel-img-1{
+	background: url("../img/building.jpg");
+	background-size: cover;  
+}.carousel-img-2{
+	background: url("../img/IMG-20170901-WA0001.jpg");
+	background-size: cover;  
+}.carousel-img-3{
+	background: url("../img/magazine.jpg");
+	background-size: cover;  
+}
+#homeIcon,.fa{
+    font-size: 50px;
+}
+.faSize{
+	font-size: 12px;
+}
+#getStarted{
+	background: url("../img/sunandtree.webp");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+position: relative;
+}
+.dark-overlay{
+	background: rgba(0,0,0,0.7);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%	;
+}
+.saveHW{
+	height: 310px;
+	width: 600px;
+
+}
+#homeVideo{
+	background: url("../img/blding.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+position: relative;
+}
+#gallery img{
+  height: 233px; 
+  width: 400px;
+}
+#copyright{
+	background: #000;
+}
+#pageheader{
+	background: url("../img/blding.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 250px;
+}
+#ServicesPageHeader{
+background: url("../img/received_672677106251562.png");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 250px;	
+}
+#BlogPageHeader{
+	background: url("../img/magazine.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 250px;
+}
+#ContactPageHeader{ 
+	background: url("../img/dag.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 250px;
+ }
+#testimonial, .slick-prev::before, .slick-next::before{
+ color: #000;
+}
+@media (max-width: 767px) {
+		.nav-item{
+    padding-left: 0em !important;
+}
+    #getStarted{
+    	min-height: 300px;
+    }
+	}
+@media(max-width:480px) {
+   .carousel h2{
+           font-size: 2.5rem;
+   }
+   #getStarted{
+    	min-height: 350px;
+    }
+    #newsletter, #gallery, #homeVideo, h2{
+       font-size: 1.5rem;
+    }
+    .Mylead{
+    	font-size: 1.05rem;
+    }
+}
